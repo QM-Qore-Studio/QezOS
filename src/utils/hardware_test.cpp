@@ -22,7 +22,6 @@ void runHardwareTest() {
     
     runAdvancedOptionsMenu();
 }
-
 void testScreen() {
     
     fill_screen_fast(0xF800);

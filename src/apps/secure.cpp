@@ -24,7 +24,7 @@ void runSecureMenu() {
                 clear();
                 printCentered("This function is delevop", TFT_YELLOW);
                 q.wait(2000);
-                runSecureMenu();
+                clear();
             } else if (selected == 1) {
                 q.println("Launching ");
                 apps_secure[1];
@@ -32,7 +32,7 @@ void runSecureMenu() {
                 clear();
                 printCentered("This function is delevop", TFT_YELLOW);
                 q.wait(2000);
-                runSecureMenu();
+                clear();
             } else if (selected == 2) {
                 q.println("Launching ");
                 apps_secure[2];
@@ -40,7 +40,7 @@ void runSecureMenu() {
                 clear();
                 printCentered("This function is delevop", TFT_YELLOW);
                 q.wait(2000);
-                runSecureMenu();
+                clear();
             } else if (selected == 3) {
                 printCentered(apps_secure[3], TFT_WHITE);
                 q.wait(1000);
